@@ -101,8 +101,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
         keyboard = InlineKeyboardMarkup([
             [InlineKeyboardButton(f"{stat}", callback_data=f"{cb}:{group_id}"),
-             InlineKeyboardButton("𝙳𝙴𝙻𝙴𝚃𝙴", callback_data=f"deletecb:{group_id}")],
-            [InlineKeyboardButton("𝙱𝙰𝙲𝙺", callback_data="backcb")]
+             InlineKeyboardButton("Dᴇʟᴇᴛᴇ", callback_data=f"deletecb:{group_id}")],
+            [InlineKeyboardButton("Bᴀᴄᴋ", callback_data="backcb")]
         ])
 
         await query.message.edit_text(
@@ -418,7 +418,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ],[
                 InlineKeyboardButton(text="𝖲𝗍𝗂𝖼𝗄𝖾𝗋", callback_data="rmbgsticker"),
                 ],[
-                InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='photo')
+                InlineKeyboardButton('Bᴀᴄᴋ', callback_data='photo')
              ]])
         )
     elif query.data == "stick":
@@ -429,7 +429,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                ],[                    
                InlineKeyboardButton(text="𝖢𝗂𝗋𝖼𝗅𝖾", callback_data="circle_sticker")
                ],[
-               InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='photo')
+               InlineKeyboardButton('Bᴀᴄᴋ', callback_data='photo')
                ]]                
            )
        )
@@ -441,7 +441,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                ],[
                InlineKeyboardButton(text="270", callback_data="270")
                ],[
-               InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='photo')
+               InlineKeyboardButton('Bᴀᴄᴋ', callback_data='photo')
                ]]
            )
        )
@@ -451,7 +451,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                InlineKeyboardButton(text="𝖭𝗈𝗋𝗆𝖺𝗅", callback_data="normalglitch"),
                InlineKeyboardButton(text="𝖲𝖼𝖺𝗇 𝖫𝖺𝗂𝗇𝗌", callback_data="scanlineglitch")
                ],[
-               InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='photo')
+               InlineKeyboardButton('Bᴀᴄᴋ', callback_data='photo')
                ]]
            )
        )
@@ -465,7 +465,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                InlineKeyboardButton(text="4", callback_data="normalglitch4"),
                InlineKeyboardButton(text="5", callback_data="normalglitch5"),
                ],[
-               InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='glitch')
+               InlineKeyboardButton('Bᴀᴄᴋ', callback_data='glitch')
                ]]
            )
        )
@@ -479,7 +479,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                InlineKeyboardButton(text="4", callback_data="scanlineglitch4"),
                InlineKeyboardButton(text="5", callback_data="scanlineglitch5"),
                ],[
-               InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='glitch')
+               InlineKeyboardButton('Bᴀᴄᴋ', callback_data='glitch')
                ]]
            )
        )
@@ -491,7 +491,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                ],[
                InlineKeyboardButton(text="𝖦𝖺𝗎𝗌𝗌𝗂𝖺𝗇", callback_data="gas")
                ],[
-               InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='photo')
+               InlineKeyboardButton('Bᴀᴄᴋ', callback_data='photo')
                ]]
            )
        )
@@ -501,7 +501,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                InlineKeyboardButton(text="𝖶𝗂𝗍𝗁 𝖡𝖦", callback_data="circlewithbg"),
                InlineKeyboardButton(text="𝖶𝗂𝗍𝗁𝗈𝗎𝗍 𝖡𝖦", callback_data="circlewithoutbg"),
                ],[
-               InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='photo')
+               InlineKeyboardButton('Bᴀᴄᴋ', callback_data='photo')
                ]]
            )
        )
@@ -514,7 +514,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                InlineKeyboardButton(text="𝖡𝗅𝖺𝖼𝗄", callback_data="black"),
                InlineKeyboardButton(text="𝖡𝗅𝗎𝖾", callback_data="blue"),
                ],[                    
-               InlineKeyboardButton('𝙱𝙰𝙲𝙺', callback_data='photo')   
+               InlineKeyboardButton('Bᴀᴄᴋ', callback_data='photo')   
                ]]                
            )
        )
