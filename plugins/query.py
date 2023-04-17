@@ -605,7 +605,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton("⚡️ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ ⚡️", url=f"http://t.me/{temp.U_NAME}?startgroup=true")
             ],[
             InlineKeyboardButton("🔍 Sᴇᴀʀᴄʜ 🔍", switch_inline_query_current_chat=''), 
-            InlineKeyboardButton("📣 Uᴩᴅᴀᴛᴇꜱ 📣, url="https://t.me/movieflix_TG")
+            InlineKeyboardButton("📣 Uᴩᴅᴀᴛᴇꜱ 📣, url=https://t.me/movieflix_TG")
             ],[
             InlineKeyboardButton("⚙️ Hᴇʟᴩ ⚙️", callback_data="help"),
             InlineKeyboardButton("⚒️ Aʙᴏᴜᴛ ⚒️", callback_data="about")
